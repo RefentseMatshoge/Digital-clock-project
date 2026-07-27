@@ -1,1 +1,29 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #1f2937;
+    font-family: Arial, sans-serif;
+}
 
+.clock-container {
+    text-align: center;
+    background: #374151;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+#clock {
+    color: #22c55e;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
